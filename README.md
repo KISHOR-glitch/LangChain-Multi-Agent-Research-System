@@ -1,14 +1,14 @@
 # LangChain Multi-Agent Research System
 
-A powerful multi-agent research system built with LangChain that autonomously researches topics, gathers information, writes comprehensive reports, and evaluates their quality using AI-powered agents.
+A multi-agent research system built with LangChain that autonomously researches topics, gathers information, writes comprehensive reports, and evaluates their quality using AI-powered agents.
 
 <p align="center">
-  <strong>🔬 Research Automation • 🤖 Multi-Agent Orchestration • 📝 Intelligent Report Generation</strong>
+  <strong>Research Automation • Multi-Agent Orchestration • Intelligent Report Generation</strong>
 </p>
 
 ---
 
-## 🌟 Features
+## Features
 
 - **Multi-Agent Architecture**: Specialized agents for searching, reading, writing, and critiquing
 - **Automated Web Research**: Intelligent web search with Tavily API
@@ -20,7 +20,7 @@ A powerful multi-agent research system built with LangChain that autonomously re
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -63,12 +63,12 @@ A powerful multi-agent research system built with LangChain that autonomously re
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Technology | Purpose |
 |-----------|---------|
 | **LangChain** | Multi-agent orchestration and chain management |
-| **OpenAI GPT-4o-mini** | Language model for agents and chains |
+| **OpenRouter / OpenAI** | Language model providers for agents and chains |
 | **Streamlit** | Interactive web UI |
 | **Tavily API** | Web search and information retrieval |
 | **BeautifulSoup4** | HTML parsing and content extraction |
@@ -79,20 +79,20 @@ A powerful multi-agent research system built with LangChain that autonomously re
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.11 or higher
-- OpenAI API Key
+- OpenRouter API Key (or OpenAI API Key)
 - Tavily API Key
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/LangChain-Multi-Agent-Research-System.git
+git clone https://github.com/KISHOR-glitch/LangChain-Multi-Agent-Research-System.git
 cd LangChain-Multi-Agent-Research-System
 ```
 
@@ -121,17 +121,17 @@ pip install -r requirements.txt
 Create a `.env` file in the project root:
 
 ```bash
-OPENAI_API_KEY=your_openai_api_key_here
+OPENROUTER_API_KEY=your_openrouter_api_key_here
 TAVILY_API_KEY=your_tavily_api_key_here
 ```
 
 Get your keys from:
-- [OpenAI API](https://platform.openai.com/api-keys)
+- [OpenRouter](https://openrouter.ai/keys)
 - [Tavily API](https://tavily.com)
 
 ---
 
-## 💡 Usage
+## Usage
 
 ### Run with Streamlit UI (Recommended)
 
@@ -151,14 +151,14 @@ Edit the `topic` variable in `main.py` to research different topics.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
 ├── app.py                      # Streamlit web interface
 ├── main.py                     # CLI entry point
 ├── requirements.txt            # Python dependencies
-├── README.md                   # This file
+├── README.md                   # Project documentation
 ├── LICENSE                     # License file
 ├── demo.excalidraw            # Architecture diagram
 │
@@ -177,7 +177,7 @@ Edit the `topic` variable in `main.py` to research different topics.
 
 ---
 
-## 🔄 Workflow
+## Workflow
 
 1. **User Input**: Enter a research topic via UI or script
 2. **Search Phase**: Search agent queries the web using Tavily
@@ -188,7 +188,7 @@ Edit the `topic` variable in `main.py` to research different topics.
 
 ---
 
-## 📊 Example Output
+## Example Output
 
 The system generates reports with:
 - Comprehensive introduction and background
@@ -199,9 +199,9 @@ The system generates reports with:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome. Please feel free to submit a Pull Request:
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -211,13 +211,13 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with [LangChain](https://langchain.com/)
 - Search powered by [Tavily](https://tavily.com)
@@ -226,8 +226,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📧 Support
+## Support
 
 For support, open an issue on GitHub or contact the maintainers.
-
-**Happy Researching! 🚀**
